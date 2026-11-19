@@ -27,7 +27,7 @@ class ProductForm
                     Toggle::make('is_active')->label('Tampilkan')->default(true),
                 ]),
                 Section::make('Angka utama')->columns(4)->schema([
-                    TextInput::make('max_speed')->label('Kecepatan (km/jam)')->numeric(),
+                    TextInput::make('max_speed')->label('Kecepatan (km/h)')->numeric(),
                     TextInput::make('range_km')->label('Jarak (km)')->numeric(),
                     TextInput::make('power_w')->label('Daya (W)')->numeric(),
                     TextInput::make('trunk_l')->label('Bagasi (L)')->numeric(),
